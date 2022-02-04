@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T23:10:05 IST" name="suite" finished-at="2022-02-01T23:10:32 IST" duration-ms="27104">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T23:10:05 IST" name="ChromeTest" finished-at="2022-02-01T23:10:19 IST" duration-ms="14184">
+      <class name="test.TestNGActiTimeHeader">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:05 IST" name="launchBrowser" finished-at="2022-02-01T23:10:08 IST" duration-ms="3187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initiationPomClasses()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:08 IST" name="initiationPomClasses" finished-at="2022-02-01T23:10:09 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiationPomClasses -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:09 IST" name="launchActiTime" finished-at="2022-02-01T23:10:11 IST" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:11 IST" name="toVerifyReportTab" finished-at="2022-02-01T23:10:14 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyReportTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:14 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:14 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyReportTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:14 IST" name="launchActiTime" finished-at="2022-02-01T23:10:15 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:15 IST" name="toVerifyTaskTab" finished-at="2022-02-01T23:10:16 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTaskTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:16 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:16 IST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTaskTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:16 IST" name="launchActiTime" finished-at="2022-02-01T23:10:17 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:17 IST" name="toVerifyUserTab" finished-at="2022-02-01T23:10:18 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:18 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:19 IST" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:19 IST" name="clearObjects" finished-at="2022-02-01T23:10:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:19 IST" name="afterClass" finished-at="2022-02-01T23:10:19 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.TestNGActiTimeHeader -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-01T23:10:19 IST" name="EdgeTest" finished-at="2022-02-01T23:10:32 IST" duration-ms="12869">
+      <class name="test.TestNGActiTimeHeader">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:19 IST" name="launchBrowser" finished-at="2022-02-01T23:10:22 IST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="initiationPomClasses()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:22 IST" name="initiationPomClasses" finished-at="2022-02-01T23:10:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiationPomClasses -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:22 IST" name="launchActiTime" finished-at="2022-02-01T23:10:23 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:23 IST" name="toVerifyReportTab" finished-at="2022-02-01T23:10:26 IST" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyReportTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:26 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:26 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyReportTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:26 IST" name="launchActiTime" finished-at="2022-02-01T23:10:27 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:27 IST" name="toVerifyTaskTab" finished-at="2022-02-01T23:10:28 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTaskTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:28 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:28 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTaskTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:28 IST" name="launchActiTime" finished-at="2022-02-01T23:10:29 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchActiTime -->
+        <test-method signature="toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:29 IST" name="toVerifyUserTab" finished-at="2022-02-01T23:10:31 IST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserTab -->
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:31 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:32 IST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromActiTime -->
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:32 IST" name="clearObjects" finished-at="2022-02-01T23:10:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjects -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:32 IST" name="afterClass" finished-at="2022-02-01T23:10:32 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.TestNGActiTimeHeader -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- suite -->
+</testng-results>
