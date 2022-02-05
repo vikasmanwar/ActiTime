@@ -24,7 +24,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentTestNGIReporterListener implements IReporter {
     
-    private static final String OUTPUT_FOLDER = "\\test-output\\ExtendReport";
+    private static final String OUTPUT_FOLDER = "test-output/ExtendReport/";
     private static final String FILE_NAME = "Extent.html";
     
     private ExtentReports extent;
