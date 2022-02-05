@@ -1,6 +1,10 @@
 package test;
 
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import pom.ActiTimeHeader;
 import pom.LoginPage;
 import utils.Utility;
@@ -99,7 +103,7 @@ public class TestNGActiTimeHeader extends Base {
 		actiTimeHeader.clickOnUser();
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
-		Assert.assertEquals(url, "http://localhost/administration/userlist.do");
+		AssertJUnit.assertEquals(url, "http://localhost/administration/userlist.do");
 
 	}
 	
@@ -119,7 +123,7 @@ public class TestNGActiTimeHeader extends Base {
 //		}
 		
 		// here we used Soft Assert
-		softAssert.assertEquals(url, "http://localhost/reports/reports.do");
+		AssertJUnit.assertEquals(url, "http://localhost/reports/reports.do");
 		softAssert.assertAll();
 	}
 	
@@ -139,7 +143,7 @@ public class TestNGActiTimeHeader extends Base {
 //		}
 		
 		
-		Assert.assertEquals(url, "http://localhost/tasks/otasklist.do");
+		AssertJUnit.assertEquals(url, "http://localhost/tasks/otasklist.do");
 		
 	}
 	

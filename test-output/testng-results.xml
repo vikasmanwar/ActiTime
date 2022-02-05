@@ -1,177 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T23:10:05 IST" name="suite" finished-at="2022-02-01T23:10:32 IST" duration-ms="27104">
+  <suite started-at="2022-02-05T13:32:37 IST" name="Suite" finished-at="2022-02-05T13:32:38 IST" duration-ms="213">
     <groups>
     </groups>
-    <test started-at="2022-02-01T23:10:05 IST" name="ChromeTest" finished-at="2022-02-01T23:10:19 IST" duration-ms="14184">
+    <test started-at="2022-02-05T13:32:37 IST" name="Test" finished-at="2022-02-05T13:32:38 IST" duration-ms="213">
       <class name="test.TestNGActiTimeHeader">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:05 IST" name="launchBrowser" finished-at="2022-02-01T23:10:08 IST" duration-ms="3187" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:37 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048157952" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="initiationPomClasses()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:08 IST" name="initiationPomClasses" finished-at="2022-02-01T23:10:09 IST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="initiationPomClasses()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="initiationPomClasses" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158012" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiationPomClasses -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:09 IST" name="launchActiTime" finished-at="2022-02-01T23:10:11 IST" duration-ms="2940" status="PASS">
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="launchActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158044" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:11 IST" name="toVerifyReportTab" finished-at="2022-02-01T23:10:14 IST" duration-ms="2111" status="PASS">
+        <test-method signature="toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="toVerifyReportTab" finished-at="2022-02-05T13:32:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toVerifyReportTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:14 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:14 IST" duration-ms="287" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyReportTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="logoutFromActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158065" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:14 IST" name="launchActiTime" finished-at="2022-02-01T23:10:15 IST" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="launchActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158078" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:15 IST" name="toVerifyTaskTab" finished-at="2022-02-01T23:10:16 IST" duration-ms="1232" status="PASS">
+        <test-method signature="toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="toVerifyTaskTab" finished-at="2022-02-05T13:32:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toVerifyTaskTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:16 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:16 IST" duration-ms="278" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyTaskTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="logoutFromActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158091" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:16 IST" name="launchActiTime" finished-at="2022-02-01T23:10:17 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="launchActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158099" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:17 IST" name="toVerifyUserTab" finished-at="2022-02-01T23:10:18 IST" duration-ms="1830" status="PASS">
+        <test-method signature="toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="toVerifyUserTab" finished-at="2022-02-05T13:32:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchBrowser but has not been marked @Optional or defined
+in V:\Automation\Actitime-Application\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toVerifyUserTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:18 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:19 IST" duration-ms="400" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="logoutFromActiTime" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158113" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:19 IST" name="clearObjects" finished-at="2022-02-01T23:10:19 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158128" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.TestNGActiTimeHeader@50a638b5]" started-at="2022-02-01T23:10:19 IST" name="afterClass" finished-at="2022-02-01T23:10:19 IST" duration-ms="515" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.TestNGActiTimeHeader@5e82df6a]" started-at="2022-02-05T13:32:38 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644048158136" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.TestNGActiTimeHeader -->
-    </test> <!-- ChromeTest -->
-    <test started-at="2022-02-01T23:10:19 IST" name="EdgeTest" finished-at="2022-02-01T23:10:32 IST" duration-ms="12869">
-      <class name="test.TestNGActiTimeHeader">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:19 IST" name="launchBrowser" finished-at="2022-02-01T23:10:22 IST" duration-ms="2241" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="initiationPomClasses()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:22 IST" name="initiationPomClasses" finished-at="2022-02-01T23:10:22 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initiationPomClasses -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:22 IST" name="launchActiTime" finished-at="2022-02-01T23:10:23 IST" duration-ms="1672" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:23 IST" name="toVerifyReportTab" finished-at="2022-02-01T23:10:26 IST" duration-ms="2290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toVerifyReportTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:26 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:26 IST" duration-ms="335" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyReportTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyReportTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:26 IST" name="launchActiTime" finished-at="2022-02-01T23:10:27 IST" duration-ms="776" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:27 IST" name="toVerifyTaskTab" finished-at="2022-02-01T23:10:28 IST" duration-ms="1295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toVerifyTaskTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:28 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:28 IST" duration-ms="333" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyTaskTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyTaskTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="launchActiTime()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:28 IST" name="launchActiTime" finished-at="2022-02-01T23:10:29 IST" duration-ms="668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchActiTime -->
-        <test-method signature="toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:29 IST" name="toVerifyUserTab" finished-at="2022-02-01T23:10:31 IST" duration-ms="2127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toVerifyUserTab -->
-        <test-method is-config="true" signature="logoutFromActiTime(org.testng.ITestResult)[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:31 IST" name="logoutFromActiTime" finished-at="2022-02-01T23:10:32 IST" duration-ms="409" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=TestNGActiTimeHeader.toVerifyUserTab()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutFromActiTime -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:32 IST" name="clearObjects" finished-at="2022-02-01T23:10:32 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.TestNGActiTimeHeader@6c80d78a]" started-at="2022-02-01T23:10:32 IST" name="afterClass" finished-at="2022-02-01T23:10:32 IST" duration-ms="703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- test.TestNGActiTimeHeader -->
-    </test> <!-- EdgeTest -->
-  </suite> <!-- suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
